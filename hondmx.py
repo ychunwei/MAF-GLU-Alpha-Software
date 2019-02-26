@@ -1,6 +1,5 @@
 # OKAY THIS IS HONDMX
 # Edited from pysimpledmx cos that doesn't work at all
-
 import serial
 import sys
 
@@ -40,7 +39,6 @@ class DMXConnection(object):
       sys.exit(0)
 
     print ("Opened %s." % (self.com.portstr))
-
 
   def setChannel(self, chan, val, autorender = False):
     '''
