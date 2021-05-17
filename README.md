@@ -3,6 +3,8 @@ Software written for MAF GLU 2017, automated lighting system controlled via a DM
 
 Updated by Guan Peng from the 45th HCSC. Special thanks to him for writing the README as well.
 
+![IMG_8856](https://user-images.githubusercontent.com/12895754/118540144-df01ca00-b782-11eb-9f3d-2c6e1c579429.JPG)
+
 # Installation Guide
 
 hondmx is a library, run buggy.py for actual set up
