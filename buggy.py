@@ -59,12 +59,10 @@ def playMusic():
         # run through instruction set and operate all instructions that are relevant
         while (cue < len(lightseq) and lightseq[cue][0] <= elapsedtime):
             channelWrite(lightseq[cue][1], 255 if lightseq[cue][2] else 0)
-            #print (elapsedtime)
-            #print (lightseq[cue][0])
-            #print ("-------------")
             cue+=1
             update = True
         if(update == True):
+            # render when necessary
             mydmx.render()
 
         stream.write(data)
