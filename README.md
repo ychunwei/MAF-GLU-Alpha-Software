@@ -1,7 +1,10 @@
 # MAF-GLU-Alpha-Software
 Software written for MAF GLU 2017, automated lighting system controlled via a DMX controller. Written in python by Gui Ming Jiang and Yang Chun Wei from the 44th HCSC.
 
-Video of the light show: https://youtu.be/YQ2D_6ao2AI
+Video of the light show: 
+
+https://youtu.be/YQ2D_6ao2AI
+
 https://www.youtube.com/watch?v=DvKxD-yfJoc&ab_channel=ThienTran
 
 Updated by Guan Peng from the 45th HCSC. Special thanks to him for writing the README as well.
