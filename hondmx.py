@@ -1,7 +1,7 @@
 # OKAY THIS IS HONDMX
 # Edited from pysimpledmx cos that doesn't work at all
 import serial
-import Crypto.Util.number
+import sys
 
 START_VAL   = 0x7E
 END_VAL     = 0xE7
@@ -78,11 +78,8 @@ class DMXConnection(object):
     packet.append(END_VAL)
 
     packet = map(chr, packet)
-    # SELF.COM.WRITE NEEDS FIXING
-    # self.com.write(''.join(packet).encode())2
-    test = ''.join(packet)
-    test = test.encode('cp1254')
-    self.com.write(test)
+    # apparently encoding of last character is a turkish char, so used special encoding instead of UTF-8
+    self.com.write(''.join(packet).encode('cp1254'))
     
    
 
